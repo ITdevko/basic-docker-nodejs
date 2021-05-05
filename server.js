@@ -3,7 +3,7 @@
 const express = require("express");
 const app = express();
 
-const VERSION = TobiVersion;
+const VERSION = 8;
 
 app.get("/", (req, res) => {
   res.send(`Current version: ${VERSION}`);
